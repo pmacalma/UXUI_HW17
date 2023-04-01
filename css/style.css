@@ -1,0 +1,262 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW17/images/Illustration_7_BW.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    }
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 40px;
+
+}
+
+.navBar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navBar ul li a:hover {
+    color:rgb(255, 255, 255)
+}
+
+.text {
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 275px;
+    line-height: 52px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.heroImg {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    opacity: 90%;
+}
+
+span {
+    color:rgba(26, 76, 145, 0.9);
+}
+
+.process { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.researchContainer {
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.research {
+    height: 200px;
+}
+
+.defineContainer {
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.define {
+    height: 200px;
+}
+
+.ideateContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ideate {
+    height: 200px;
+}
+
+.prototypeContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.prototype {
+    height: 200px;
+}
+
+.testContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.test {
+    height: 200px;
+    color: rgba(26, 76, 145, 0.9);
+}
+
+.project1 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 76, 145, 0.9);
+}
+
+.piHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText {
+    width: 40%;
+    margin-right: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px; 
+    color: white;
+}
+
+.btnBlue {
+    background-color: rgba(26, 76, 145, 0.9);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnWhite {
+    background-color: white;
+    color: rgba(26, 76, 145, 0.9);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.project2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ffHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText2 {
+    width: 40%;
+    margin-left: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px;
+    color:rgba(26, 76, 145, 0.9)
+}
+
+.project3 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 76, 145, 0.9);
+}
+
+.oyHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText3 {
+    width: 40%;
+    margin-right: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px; 
+    color: white;
+}
+
+.project4 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cosHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText4 {
+    width: 40%;
+    margin-left: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px;
+    color:rgba(26, 76, 145, 0.9)
+}
+
+.footer {
+    background-color:rgba(26, 76, 145, 0.9);
+    padding-left: 200px;
+    padding: 50px;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fb_logo {
+    height: 60px;
+}
+
+.ig_logo {
+    height: 60px;
+}
+
+.li_logo {
+    height: 60px;
+}
